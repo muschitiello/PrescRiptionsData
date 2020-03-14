@@ -55,8 +55,10 @@ Practice size for some demographic groups, as measured by the number of register
 The number of registered patients was downloaded from NHS Digital General Practice Data Hub (https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/general-practice-data-hub). 
 
 Data are available on: 
+
   * age
   * sex
+  
 for each GP in two different format: 
 
   * csv
@@ -76,5 +78,54 @@ Data example for jannuary 2018 in csv format:
 
 ### ***04_qof***
 
+Quality outcome framework indicators for individual conditions. 
+Data on specific conditions were obtained from NHS General Practice Data Hub 
+https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2018-19-pas. 
+Considered conditions were: 
+  
+  a) cardiovascular group, 
+  b) respiratory group, 
+  c) lifestyle group, 
+  d) long-term conditions group, 
+  e) mental health group, 
+  f) muscoloskeletal group, 
 
+Details on the data content at the following link: 
+https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2018-19-pas/technical-annex#definitions
+
+
+#### *04_qof/xlsx*
+
+Original data are in xlsx format and contain indicators at 2-years level. 
+
+  * qof-1819-prev-ach-exc-cv-prac.xlsx
+  * qof-1819-prev-ach-exc-hd-prac.xlsx
+  * qof-1819-prev-ach-exc-ls-prac.xlsx
+  * qof-1819-prev-ach-exc-ms-prac.xlsx
+  * qof-1819-prev-ach-exc-neu-prac.xlsx
+  * qof-1819-prev-ach-exc-resp-prac.xlsx
+
+Because the *PrescRisptions* RPackage considers 2 years of data, only one set of data is considered in this Repository, the one containing data for 2018 and 2019.
+Data structure of downloaded file was in a format not suitable for immediate usage. Therefore data were reorganized in separated files and in two formats: 
+
+  * csv
+  * feather 
+
+#### *04_qof/csv*:
+
+  * qofGP_CardioVascular.csv
+  * qofGP_dependency.csv
+  * qofGP_lifestyle.csv
+  * qofGP_mental.csv
+  * qofGP_muscul.csv
+  * qofGP_respiratory.csv
+
+#### *04_qof/feather*:
+
+  * qofGP_CardioVascular.feather
+  * qofGP_dependency.feather
+  * qofGP_lifestyle.feather
+  * qofGP_mental.feather
+  * qofGP_muscul.feather
+  * qofGP_respiratory.feather
  
