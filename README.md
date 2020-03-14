@@ -51,6 +51,29 @@ For informnation on feather format: https://blog.rstudio.com/2016/03/29/feather/
 
 ### ***03_demog***
 
+Practice size for some demographic groups, as measured by the number of registered patients. 
+The number of registered patients was downloaded from NHS Digital General Practice Data Hub (https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/general-practice-data-hub). 
+
+Data are available on: 
+  * age
+  * sex
+for each GP in two different format: 
+
+  * csv
+  * feather
+
+Data are organized in monthly files from january 2018 to december 2019 containing 2 files: 
+
+  1. demographic data
+  2. data map, with GP details
+ 
+Data example for jannuary 2018 in csv format: 
+ 
+#### *03_demog/csv/demog_201801*:
+
+  * 201801_demog.csv
+  * 201801_demogMap.csv
+
 ### ***04_qof***
 
 
