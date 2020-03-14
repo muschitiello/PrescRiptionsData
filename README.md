@@ -1,5 +1,5 @@
 # **PrescRiptionsData**
-Data to be used in the ***PrescRiprions*** RPackage
+Data to be used in the [***PrescRiprions***](https://github.com/muschitiello/PrescRiptions) RPackage
 
 ## **Repository Content**
 
