@@ -1,5 +1,5 @@
 # **PrescRiptionsData**
-Data to be used in the [***PrescRiprions***](https://github.com/muschitiello/PrescRiptions) RPackage
+Data to be used in the [***PrescRiptions***](https://github.com/muschitiello/PrescRiptions) RPackage
 
 ## **Repository Content**
 
@@ -15,7 +15,7 @@ The BNF codes from this pseudo-classification are used in the prescribing datase
 More information can be found @ https://ebmdatalab.net/prescribing-data-bnf-codes/
 
 For the purpose of the usage in the *PrescRiprions* RPackage, the first 6 digits of the reported items in the monthly prescription data are used. 
-BNF codes information were downloaded from the NHS website (https://apps.nhsbsa.nhs.uk/infosystems/data/showDataSelector.do?reportId=126)
+BNF codes information were downloaded from the [NHS website](https://apps.nhsbsa.nhs.uk/infosystems/data/showDataSelector.do?reportId=126)
 
 Bnf data are released once a year in *.zip* format.
 
@@ -79,16 +79,15 @@ Data example for jannuary 2018 in csv format:
 ### ***04_qof***
 
 Quality outcome framework indicators for individual conditions. 
-Data on specific conditions were obtained from NHS General Practice Data Hub 
-https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2018-19-pas. 
+Data on specific conditions were obtained from [NHS General Practice Data Hub](https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2018-19-pas ).
 Considered conditions were: 
   
-  a) cardiovascular group, 
-  b) respiratory group, 
-  c) lifestyle group, 
-  d) long-term conditions group, 
-  e) mental health group, 
-  f) muscoloskeletal group, 
+  1. cardiovascular group
+  2. respiratory group
+  3. lifestyle group
+  4. long-term conditions group
+  5. mental health group
+  6. muscoloskeletal group
 
 Details on the data content at the following link: 
 https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2018-19-pas/technical-annex#definitions
