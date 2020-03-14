@@ -1,9 +1,9 @@
-# PrescRiptionsData
-Data to be used in the \emph{PrescRiprions} RPackage
+# **PrescRiptionsData**
+Data to be used in the ***PrescRiprions*** RPackage
 
-# Repository Content
+## **Repository Content**
 
-## 02_bnf
+### ***02_bnf***
 
 The British National Formulary (BNF) is a reference book containing the standard list of medicines used in UK prescribing. It gives information on the indications, dosages and side effects for over 70,000 medicines. The BNF used to show medicines in a hierarchy, and the NHS Business Services Authority use a legacy version of the BNF hierarchy to assign codes to drugs and chemicals. You can find out more about how they assign codes here. UPDATED December 2018: You can find a download of the latest codes from the BSA here.
 
@@ -14,12 +14,30 @@ The BNF codes from this pseudo-classification are used in the prescribing datase
 
 More information can be found @ https://ebmdatalab.net/prescribing-data-bnf-codes/
 
-For the purpose of the usage in the \emph{PrescRiprions} RPackage, the first 6 digits of the reported items in the monthly prescription data are used. 
+For the purpose of the usage in the *PrescRiprions* RPackage, the first 6 digits of the reported items in the monthly prescription data are used. 
 BNF codes information were downloaded from the NHS website (https://apps.nhsbsa.nhs.uk/infosystems/data/showDataSelector.do?reportId=126)
 
-## 03_demog
+Bnf data are released once a year in *.zip* format.
 
-## 04_qof
+Three years of data are present in this Repo, in the original .zip format but alcs, conversions in RData, feather and csv format: 
+
+#### *02_bnf/zip*:
+
+  * bnf 2018 01: 20200205_1580915838473_BNF_Code_Information.zip
+  * bnf 2019 01: 20200205_1580915847332_BNF_Code_Information.zip
+  * bnf 2020 01: 20200201_1580570906919_BNF_Code_Information.zip
+  
+#### *02_bnf/RData*:
+
+#### *02_bnf/feather*:
+
+#### *02_bnf/csv*:
+
+
+
+### ***03_demog***
+
+### ***04_qof***
 
 
  
