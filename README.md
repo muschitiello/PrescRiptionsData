@@ -1,5 +1,5 @@
 # PrescRiptionsData
-Data to be used in the PrescRiprions RPackage
+Data to be used in the \emph{PrescRiprions} RPackage
 
 # Repository Content
 
@@ -12,4 +12,14 @@ The BNF codes from this pseudo-classification are used in the prescribing datase
   + The first characters tell you which part of the BNF a drug is from. For example, drugs in BNF Chapter 4 (Central Nervous System) will always begin with ’04’. The BNF is then further subdivided into sections. For example, Antidepressant Drugs, which are contained within Chapter 4 Section 3 of the BNF, all begin with ‘0403’
   + The last few characters of the BNF code give more detailed information about a drug. It tells you what the drug is, it tells you whether the product is generic or branded, and it tells you more about the presentation of the drug (e.g. whether it is a capsule or tablet, and what the strength of the drug is)
 
-More information can be found @ (https://ebmdatalab.net/prescribing-data-bnf-codes/)[https://ebmdatalab.net/prescribing-data-bnf-codes/]
+More information can be found @ https://ebmdatalab.net/prescribing-data-bnf-codes/
+
+For the purpose of the usage in the \emph{PrescRiprions} RPackage, the first 6 digits of the reported items in the monthly prescription data are used. 
+BNF codes information were downloaded from the NHS website (https://apps.nhsbsa.nhs.uk/infosystems/data/showDataSelector.do?reportId=126)
+
+## 03_demog
+
+## 04_qof
+
+
+ 
