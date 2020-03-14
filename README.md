@@ -22,6 +22,7 @@ Bnf data are released once a year in *.zip* format.
 Three years of data are present in this Repo, in the original .zip format but alcs, conversions in RData, feather and csv format: 
 
 #### *02_bnf/zip*:
+This are the original files downloaded from NHS website.
 
   * bnf 2018 01: 20200205_1580915838473_BNF_Code_Information.zip
   * bnf 2019 01: 20200205_1580915847332_BNF_Code_Information.zip
@@ -29,10 +30,23 @@ Three years of data are present in this Repo, in the original .zip format but al
   
 #### *02_bnf/RData*:
 
+  * bnf 2018 01: bnf201801.RData
+  * bnf 2019 01: bnf201801.RData
+  * bnf 2020 01: bnf201801.RData
+
 #### *02_bnf/feather*:
 
+For informnation on feather format: https://blog.rstudio.com/2016/03/29/feather/
+
+  * bnf 2018 01: bnf201801.feather
+  * bnf 2019 01: bnf201801.feather
+  * bnf 2020 01: bnf201801.feather
+  
 #### *02_bnf/csv*:
 
+  * bnf 2018 01: bnf201801.csv
+  * bnf 2019 01: bnf201801.csv
+  * bnf 2020 01: bnf201801.csv
 
 
 ### ***03_demog***
