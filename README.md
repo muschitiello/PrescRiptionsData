@@ -7,6 +7,17 @@ The Repo includes [***Practice Level Prescribing***](https://digital.nhs.uk/data
 
 Data are organized in the following Sections and Subsections
 
+### ***01_plpd***
+
+Practice level prescribing data is a list of all medicines, dressings and appliances that are prescribed by all practices in England and dispensed in the community each month.
+
+A zip file is available which users are able to download and extract all 3 files locally:
+
+Practice Prescribing Data (pdpi) (monthly data from Jan 2019 to Dec 2019):
+GP prescribing practice address (monthly data):
+GP prescribing chemical substance (monthly data):
+Because data are too large to be stored in a GitHub Repository,the section includes links to files.
+
 ### ***02_bnf***
 
 The British National Formulary (BNF) is a reference book containing the standard list of medicines used in UK prescribing. It gives information on the indications, dosages and side effects for over 70,000 medicines. The BNF used to show medicines in a hierarchy, and the NHS Business Services Authority use a legacy version of the BNF hierarchy to assign codes to drugs and chemicals. You can find out more about how they assign codes here. UPDATED December 2018: You can find a download of the latest codes from the BSA here.
