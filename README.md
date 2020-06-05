@@ -1,7 +1,22 @@
 # **PrescRiptionsData**
-Data to be used in the [***PrescRiptions***](https://github.com/muschitiello/PrescRiptions) RPackage
+Data used in the [***PrescRiptions***](https://github.com/muschitiello/PrescRiptions) RPackage
 
 ## **Repository Content**
+
+The Repo includes [***Practice Level Prescribing***](https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary) data for years 2018 and 2019. Data files are renamed, checked for homogeneity and made available for the purposes of the R-Package PrescRiptions.
+
+Data are organized in the following Sections and Subsections
+
+### ***01_plpd***
+
+Practice level prescribing data is a list of all medicines, dressings and appliances that are prescribed by all practices in England and dispensed in the community each month.
+
+A zip file is available which users are able to download and extract all 3 files locally:
+
+Practice Prescribing Data (pdpi) (monthly data from Jan 2019 to Dec 2019):
+GP prescribing practice address (monthly data):
+GP prescribing chemical substance (monthly data):
+Because data are too large to be stored in a GitHub Repository,the section includes links to files.
 
 ### ***02_bnf***
 
